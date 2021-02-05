@@ -17,7 +17,7 @@ from random import randint
 
 print("Your fortune cookie says...")
 
-cookie_input= int(randint (0,100)) 
+cookie_input = int (randint (0, 100)) 
 if cookie_input < 25:
     print("Good fortunes are coming your way!")
 else: 

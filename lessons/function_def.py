@@ -1,8 +1,5 @@
 """An example function definition"""
 
-print(my_max(1, 2))
-
-
 def my_max(a: int, b: int) -> int:
     """Returns the largest argument"""
     if a >= b:

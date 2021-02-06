@@ -4,7 +4,7 @@ __author__ = "730236759"
 
 
 # Begin your solution here...
-number: int = input("Enter an int:")
+number: str = input("Enter an int:")
 
 if int(number) % 2 == 0 and int(number) % 7 == 0:
     print("TAR HEELS")

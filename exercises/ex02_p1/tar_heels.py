@@ -9,8 +9,8 @@ def main() -> None:
     print(tar_heels(choice))
 
 
-def tar_heels(choice:int) -> str:
-    """Solving Tar Heel Arithmetic Puzzle"""
+def tar_heels(choice: int) -> str: 
+    """Solving Tar Heel Arithmetic Puzzle."""
     if int(choice) % 2 == 0 and int(choice) % 7 == 0:
         return("TAR HEELS")
     else: 
@@ -19,8 +19,7 @@ def tar_heels(choice:int) -> str:
         else: 
             if int(choice) % 7 == 0: 
                 return("HEELS")
-            else: 
-                return("CAROLINA")
+            return("CAROLINA")
 
 
 if __name__ == "__main__":

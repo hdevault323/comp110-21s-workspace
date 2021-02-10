@@ -13,7 +13,7 @@ def main() -> None:
 
 
 def fortune_cookie() -> str:
-    """Possible fortunes returned by fortune cookie"""
+    """Possible fortunes returned by fortune cookie."""
     cookie_input = int(randint(0, 100)) 
     if cookie_input < 25:
         return("Good fortunes are coming your way!")
@@ -23,9 +23,7 @@ def fortune_cookie() -> str:
         else: 
             if cookie_input < 75:
                 return("You will have a long and happy life!")
-            else: 
-                if cookie_input <= 100:
-                    return("Someone specail is coming into your life!")
+            return("Someone specail is coming into your life!")
 
 
 # Python Idiom for "starting" the program when run as a module.

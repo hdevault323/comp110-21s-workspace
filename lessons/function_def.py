@@ -16,3 +16,4 @@ x: int = 6
 y: int = 5 + 2
 x: int = my_max(x, y)
 print(z)
+

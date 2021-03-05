@@ -12,7 +12,7 @@ i: int = 0 #i is typically short for index
 iterations: int = 10
 
 while i < iterations:
-    if i % 1000 ==0: 
+    if i % 1000 == 0: 
         print(f"I love you! i: {i}")
     i += 1 # Important that this increment is NOT in the if statement
 

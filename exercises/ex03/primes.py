@@ -22,17 +22,15 @@ def is_prime(x: int) -> bool:
     if x <= 1:
         return False
     else: 
-        if x == 2 or x == 3:
+        if x == 2 or x == 3 or x == 5:
             return True 
         else:
-            if x % 2 == 0 or x % 3 == 0:
+            if x % 2 == 0 or x % 3 == 0 or x % 5 == 0:
                 return False
             else: 
                 for i in range(2, (x + 1), 1):
-                    if (x % i) == 0:
+                    if (x % i) == 0 and (x != i):
                         return False
-                    else: 
-                        return True
     return True
 
 
@@ -42,7 +40,6 @@ def list_primes(a: int, y: int) -> list[int]:
     primes_list = []
     i = 0
     while i < (len(chosen_range)):
-        is_prime(chosen_range[i])
         if is_prime(chosen_range[i]):
             primes_list.append(chosen_range[i])
         i += 1

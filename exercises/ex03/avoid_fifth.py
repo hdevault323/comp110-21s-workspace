@@ -10,9 +10,9 @@ def main() -> None:
     avoid_fifth(sentence)
     print(avoid_fifth(sentence))
     
-
-
-def avoid_fifth(sentence: str) -> str: 
+     
+def avoid_fifth(sentence: str) -> str:
+    """This Function will return a sentence without all "e"/"E"'s.""" 
     sentence_list = list(sentence)
     i = 0 
     while i < len(sentence_list):
@@ -21,6 +21,14 @@ def avoid_fifth(sentence: str) -> str:
         if sentence_list[i] == str("E"):
             sentence_list.pop(int(i))
         i += 1
+        else: 
+            i += 1
+    i = 0
+    while i < len(sentence_list):
+        if sentence_list[i] == str("E"):
+            sentence_list.pop(int(i))
+        else:
+            i += 1
     sentence_revised = str("")
     x = 0
     while x < len(sentence_list):

@@ -38,20 +38,18 @@ def head(data_cols: dict[str, list[str]], N: int) -> dict[str, list[str]]:
     """Produces a column based table with N number of rows."""
     new_table: dict[str, list[str]] = {}
     iterations = int(N)
-    if iterations > len(data_cols):
-        new_table = data_cols
-        return new_table
-    else: 
-        for column in data_cols:
-            first_N_values: list[str] = []
-            i = 0
-            while i < iterations:
-                first_N_values.append(data_cols[column][i])
-                i += 1
-                new_table[column] = first_N_values
-        return new_table
+    for column in data_cols:
+        first_N_values: list[str] = []
+        i = 0
+        if iterations > len(data_cols[column]):
+            iterations = len(data_cols[column])
+        while i < iterations:
+            first_N_values.append(data_cols[column][i])
+            i += 1
+            new_table[column] = first_N_values
+    return new_table
 
-
+ 
 def select(data_cols: dict[str, list[str]], column_names: list[str]) -> dict[str, list[str]]:
     """Produce a new column-based table with only a specific subset of the original columns."""
     return_dict: dict[str, list[str]] = {}

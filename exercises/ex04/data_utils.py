@@ -48,7 +48,6 @@ def head(data_cols: dict[str, list[str]], N: int) -> dict[str, list[str]]:
             i += 1
             new_table[column] = first_N_values
     return new_table
-
  
 def select(data_cols: dict[str, list[str]], column_names: list[str]) -> dict[str, list[str]]:
     """Produce a new column-based table with only a specific subset of the original columns."""

@@ -8,6 +8,7 @@ __author__ = "730236759"
 
 
 class Simpy:
+    """Class called Simpy."""
     values: list[float]
 
     def __init__(self, values: list[float]):
@@ -27,7 +28,7 @@ class Simpy:
             i += 1
         self.values = list_values
 
-    def arange(self, start: float, stop: float, step = 1.0) -> None:
+    def arange(self, start: float, stop: float, step: float = 1.0) -> None:
         """Fills in the values attribute with a range of values."""
         step != 0.0
         list_values: list[float] = []

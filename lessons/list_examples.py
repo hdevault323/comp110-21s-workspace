@@ -19,3 +19,6 @@ print(rolls)
 words: list[str] = list() #construct an empty list using the list constructor
 words.append("Hello")
 print(words)
+
+print(len(rolls))
+print(len("yoda"))

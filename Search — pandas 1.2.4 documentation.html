@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://pandas.pydata.org/docs/search.html?q=regression+line# -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search — pandas 1.2.4 documentation</title>
+    
+  <link href="./Search — pandas 1.2.4 documentation_files/theme.css" rel="stylesheet">
+  <link href="./Search — pandas 1.2.4 documentation_files/index.ee6fb81b276d6fba8a971ad8e9b95dd9.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet" href="./Search — pandas 1.2.4 documentation_files/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin="" href="https://pandas.pydata.org/docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin="" href="https://pandas.pydata.org/docs/_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="./Search — pandas 1.2.4 documentation_files/pygments.css" type="text/css">
+    <link rel="stylesheet" href="./Search — pandas 1.2.4 documentation_files/basic.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./Search — pandas 1.2.4 documentation_files/plot_directive.css">
+    <link rel="stylesheet" type="text/css" href="./Search — pandas 1.2.4 documentation_files/getting_started.css">
+    <link rel="stylesheet" type="text/css" href="./Search — pandas 1.2.4 documentation_files/pandas.css">
+    
+  <link rel="preload" as="script" href="./Search — pandas 1.2.4 documentation_files/index.c86189f1ce1b71a67eb6.js">
+
+    
+    <script id="documentation_options" data-url_root="./" src="./Search — pandas 1.2.4 documentation_files/documentation_options.js"></script>
+    <script src="./Search — pandas 1.2.4 documentation_files/jquery.js"></script>
+    <script src="./Search — pandas 1.2.4 documentation_files/underscore.js"></script>
+    <script src="./Search — pandas 1.2.4 documentation_files/doctools.js"></script>
+    <script src="./Search — pandas 1.2.4 documentation_files/embed-amd.js"></script>
+    <script src="./Search — pandas 1.2.4 documentation_files/searchtools.js"></script>
+    <script src="./Search — pandas 1.2.4 documentation_files/language_data.js"></script>
+    <link rel="shortcut icon" href="https://pandas.pydata.org/docs/_static/favicon.ico">
+    <link rel="index" title="Index" href="https://pandas.pydata.org/docs/genindex.html">
+    <link rel="search" title="Search" href="https://pandas.pydata.org/docs/search.html?q=regression+line#">
+  <script src="./Search — pandas 1.2.4 documentation_files/searchindex.js" defer=""></script>
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+    
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="https://pandas.pydata.org/docs/index.html">
+  <img src="./Search — pandas 1.2.4 documentation_files/pandas.svg" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="https://pandas.pydata.org/docs/getting_started/index.html">
+  Getting started
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="https://pandas.pydata.org/docs/user_guide/index.html">
+  User Guide
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="https://pandas.pydata.org/docs/reference/index.html">
+  API reference
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="https://pandas.pydata.org/docs/development/index.html">
+  Development
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="https://pandas.pydata.org/docs/whatsnew/index.html">
+  Release notes
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/pandas-dev/pandas" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/pandas_dev" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="https://pandas.pydata.org/docs/search.html?q=regression+line#" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+
+<nav id="bd-toc-nav">
+    
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <h1 id="search-documentation">Search</h1>
+  <div id="fallback" class="admonition warning" style="display: none;">
+  <script>$('#fallback').hide();</script>
+  <p>
+    Please activate JavaScript to enable the search
+    functionality.
+  </p>
+  </div>
+  <p>
+    Searching for multiple words only shows matches that contain
+    all words.
+  </p>
+  <form action="https://pandas.pydata.org/docs/search.html?q=regression+line" method="get">
+    <input type="text" name="q" aria-labelledby="search-documentation" value="">
+    <input type="submit" value="search">
+    <span id="search-progress" style="padding-left: 10px"></span>
+  </form>
+  
+  <div id="search-results">
+  
+  <h2>Search Results</h2><p class="search-summary">Search finished, found 21 page(s) matching the search query.</p><ul class="search"><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.24.2.html?highlight=regression%20line">What’s new in 0.24.2 (March 12, 2019)</a><div class="context">...n passing a custom na_sentinel value with sort=True (GH25409).
+Fixed <span class="highlighted">regression</span> in DataFrame.to_csv() writing duplicate <span class="highlighted">line</span> endings with gzip compress (GH25311)
+
+
+
+Bug fixes
+I/O
+
+Better handling of terminal printing when the terminal dimen...</div></li><li><a href="https://pandas.pydata.org/docs/development/contributing.html?highlight=regression%20line">Contributing to pandas</a><div class="context">...onal dependencies
+
+C (cpplint)
+Python (PEP8 / black)
+Import formatting
+Backwards compatibility
+
+
+Type hints
+
+Style guide<span class="highlighted">line</span>s
+pandas-specific types
+Validating type hints
+
+
+Testing with continuous integration
+Test-driven development/code wri...</div></li><li><a href="https://pandas.pydata.org/docs/development/maintaining.html?highlight=regression%20line">pandas maintenance</a><div class="context">...ey used), is missing
+feel free to ask for that and label the issue with “Needs info”. The
+report should follow the guide<span class="highlighted">line</span>s in Bug reports and enhancement requests.
+You may want to link to that if they didn’t follow the template.
+Make sur...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.13.0.html?highlight=regression%20line">Version 0.13.0 (January 3, 2014)</a><div class="context">...=10))
+   ....: 
+
+In [34]: dfq.to_hdf(path, 'dfq', format='table', data_columns=True)
+
+
+Use boolean expressions, with in-<span class="highlighted">line</span> function evaluation.
+In [35]: pd.read_hdf(path, 'dfq',
+   ....:             where="index&gt;Timestamp('20130104') &amp; co...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.14.0.html?highlight=regression%20line">Version 0.14.0 (May 31 , 2014)</a><div class="context">...an matplotlib.Axes.
+
+
+plot(legend='reverse') will now reverse the order of legend labels for
+most plot kinds. (GH6014)
+<span class="highlighted">Line</span> plot and area plot can be stacked by stacked=True (GH6656)
+Following keywords are now acceptable for DataFrame.plot...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.14.1.html?highlight=regression%20line">Version 0.14.1 (July 11, 2014)</a><div class="context">...sem() to calculate the
+standard error of the mean.
+Support for dateutil timezones (see docs).
+Support for ignoring full <span class="highlighted">line</span> comments in the read_csv()
+text parser.
+New documentation section on Options and Settings.
+Lots of bug fixes.
+
+
+Enh...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.15.0.html?highlight=regression%20line">Version 0.15.0 (October 18, 2014)</a><div class="context">...Frame default display for df.info() to include memory usage, see Memory Usage
+read_csv will now by default ignore blank <span class="highlighted">line</span>s when parsing, see here
+API change in using Indexes in set operations, see here
+Enhancements in the handling of tim...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.15.2.html?highlight=regression%20line">Version 0.15.2 (December 12, 2014)</a><div class="context">...mat string (if its False). exact defaults to True (meaning that exact matching is still the default)  (GH8904)
+Added axv<span class="highlighted">line</span>s boolean option to parallel_coordinates plot function, determines whether vertical lines will be printed, default i...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.16.0.html?highlight=regression%20line">Version 0.16.0 (March 22, 2015)</a><div class="context">...reqstr now output the same string format as DatetimeIndex. (GH9116)
+Bar and horizontal bar plots no longer add a dashed <span class="highlighted">line</span> along the info axis. The prior style can be achieved with matplotlib’s axhline or axvline methods (GH9088).
+Series...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.16.1.html?highlight=regression%20line">Version 0.16.1 (May 11, 2015)</a><div class="context">...x representation
+The string representation of Index and its sub-classes have now been unified. These will show a single-<span class="highlighted">line</span> display if there are few values; a wrapped multi-line display for a lot of values (but less than display.max_seq_it...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.17.0.html?highlight=regression%20line">Version 0.17.0 (October 9, 2015)</a><div class="context">...In [12]: df.plot.&lt;TAB&gt;  # noqa: E225, E999
+df.plot.area     df.plot.barh     df.plot.density  df.plot.hist     df.plot.<span class="highlighted">line</span>     df.plot.scatter
+df.plot.bar      df.plot.box      df.plot.hexbin   df.plot.kde      df.plot.pie
+
+
+Each method s...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.18.0.html?highlight=regression%20line">Version 0.18.0 (March 13, 2016)</a><div class="context">...ue for inplace in a query
+is False, which is consistent with prior versions.
+
+eval has also been updated to allow multi-<span class="highlighted">line</span> expressions for multiple
+assignments.  These expressions will be evaluated one at a time in order.  Only
+assignment...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.19.0.html?highlight=regression%20line">Version 0.19.0 (October 2, 2016)</a><div class="context">...false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_<span class="highlighted">line</span>s, parse_dates, infer_datetime_format, keep_date_col, date_parser, dayfirst, cache_dates, iterator, chunksize, compr...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.19.1.html?highlight=regression%20line">Version 0.19.1 (November 3, 2016)</a><div class="context">...Improved performance in DataFrame.asof(where) when where is a scalar (GH14461)
+Improved performance in .to_json() when <span class="highlighted">line</span>s=True (GH14408)
+Improved performance in certain types of loc indexing with a MultiIndex (GH14551).
+
+
+
+Bug fixes
+
+So...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.19.2.html?highlight=regression%20line">Version 0.19.2 (December 24, 2016)</a><div class="context">...ng respected (GH14203)
+Bug in pd.read_csv where reading files fails, if the number of headers is equal to the number of <span class="highlighted">line</span>s in the file (GH14515)
+Bug in pd.read_csv for the Python engine in which an unhelpful error message was being raise...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.21.0.html?highlight=regression%20line">Version 0.21.0 (October 27, 2017)</a><div class="context">...ill contain the totals when margins=True. (GH15972)
+read_json() now accepts a chunksize parameter that can be used when <span class="highlighted">line</span>s=True. If chunksize is passed, read_json now returns an iterator which reads in chunksize lines with each iteration...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.21.1.html?highlight=regression%20line">Version 0.21.1 (December 12, 2017)</a><div class="context">...e.to_msgpack() when serializing data of the numpy.bool_ datatype (GH18390)
+Bug in read_json() not decoding when reading <span class="highlighted">line</span> delimited JSON from S3 (GH17200)
+Bug in pandas.io.json.json_normalize() to avoid modification of meta (GH18610)
+Bug...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.23.0.html?highlight=regression%20line">What’s new in 0.23.0 (May 15, 2018)</a><div class="context">...y&gt; elements in a &lt;table&gt;, not just the first. (GH20690)
+quantile() and quantile() now accept the interpolation keyword, <span class="highlighted">line</span>ar by default (GH20497)
+zip compression is supported via compression=zip in DataFrame.to_pickle(), Series.to_pickle(...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v0.24.0.html?highlight=regression%20line">What’s new in 0.24.0 (January 25, 2019)</a><div class="context">...pend on feather-format for feather based storage
+and replaced it with references to pyarrow (GH21639 and GH23053).
+
+
+os.<span class="highlighted">line</span>sep is used for line_terminator of DataFrame.to_csv
+DataFrame.to_csv() now uses os.linesep() rather than '\n'
+for th...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v1.1.0.html?highlight=regression%20line">What’s new in 1.1.0 (July 28, 2020)</a><div class="context">...functions with Numba (GH32854, GH33388)
+interpolate() now supports SciPy interpolation method scipy.interpolate.CubicSp<span class="highlighted">line</span> as method cubicspline (GH33670)
+DataFrameGroupBy and SeriesGroupBy now implement the sample method for doing random...</div></li><li><a href="https://pandas.pydata.org/docs/whatsnew/v1.2.0.html?highlight=regression%20line">What’s new in 1.2.0 (December 26, 2020)</a><div class="context">...values using np.nan,
+these new data types use pd.NA (and its corresponding behavior) as the missing
+value indicator, in <span class="highlighted">line</span> with the already existing nullable integer
+and boolean data types.
+One example where the behavior of np.nan and pd....</div></li></ul></div>
+
+              </div>
+              
+              
+              <div class="prev-next-bottom">
+                
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+    
+  <script src="./Search — pandas 1.2.4 documentation_files/index.c86189f1ce1b71a67eb6.js"></script>
+
+
+    
+    <!-- Google Analytics -->
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-27880019-2', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+    </script>
+    <script async="" src="./Search — pandas 1.2.4 documentation_files/analytics.js"></script>
+    <!-- End Google Analytics -->
+    <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    © Copyright 2008-2021, the pandas development team.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.5.4.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  
+</body></html>
